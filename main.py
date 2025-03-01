@@ -5,11 +5,23 @@ import threading
 import webbrowser
 import os
 import time
+import sys
+from dotenv import load_dotenv
+
+# Ladda miljövariabler från .env filen
+load_dotenv()
+
+# Hämta miljövariabler
+CLIENT_SECRET = os.getenv('CLIENT_SECRET')
+PORT = int(os.getenv('PORT', 8000))  # Ändrad standardport till 8080
+HOST = os.getenv('HOST', 'localhost')
+
+# Validera nödvändiga miljövariabler
+if not CLIENT_SECRET:
+    raise ValueError("CLIENT_SECRET måste anges i .env filen")
 
 # API setup
-client_id = "54fdbd1aa24e7b191d360df8"
-client_secret = "ba08537bc98613171710be40b09f0111ce1d2917"
-api = BlocketAPI(client_secret)
+api = BlocketAPI(CLIENT_SECRET)
 
 def update_listings():
     print("Hämtar annonser från Blocket API...")
@@ -39,16 +51,13 @@ class RequestHandler(SimpleHTTPRequestHandler):
     def do_POST(self):
         if self.path == '/update':
             try:
-                # Läs request body
                 content_length = int(self.headers.get('Content-Length', 0))
                 if content_length:
                     self.rfile.read(content_length)
                 
-                # Uppdatera annonser
                 print("Uppdaterar annonser via API...")
                 update_listings()
                 
-                # Skicka response
                 self.send_response(200)
                 self.send_header('Content-Type', 'application/json')
                 self.end_headers()
@@ -71,11 +80,24 @@ class RequestHandler(SimpleHTTPRequestHandler):
             response = json.dumps({"error": "Not found"})
             self.wfile.write(response.encode('utf-8'))
 
-# Starta webbserver
 def run_server():
-    server = HTTPServer(('localhost', 8000), RequestHandler)
-    print("Server started at http://localhost:8000")
-    server.serve_forever()
+    try:
+        server = HTTPServer((HOST, PORT), RequestHandler)
+        print(f"Server started at http://{HOST}:{PORT}")
+        server.serve_forever()
+    except PermissionError:
+        print(f"\nFEL: Kunde inte starta servern på port {PORT}.")
+        print("Tips: Använd en port över 1024 eller kör med sudo")
+        print("Du kan ändra porten i .env filen eller köra med:")
+        print(f"sudo PORT={PORT} python main.py\n")
+        sys.exit(1)
+    except OSError as e:
+        if "Address already in use" in str(e):
+            print(f"\nFEL: Port {PORT} används redan av en annan process.")
+            print("Tips: Välj en annan port i .env filen eller avsluta processen som använder porten\n")
+        else:
+            print(f"\nFEL: {str(e)}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     print("Hämtar annonser...")
@@ -85,8 +107,6 @@ if __name__ == "__main__":
     server_thread = threading.Thread(target=run_server)
     server_thread.daemon = True
     server_thread.start()
-    
-    webbrowser.open('http://localhost:8000')
     
     try:
         while True:
