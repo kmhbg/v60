@@ -1,0 +1,1452 @@
+{
+    "data": [
+        {
+            "ad": {
+                "ad_id": "1401699999",
+                "list_time": "2025-03-01T17:33:22+01:00",
+                "subject": "Volvo V60 B4 Geartronic Momentum Euro 6",
+                "price": {
+                    "value": 290000,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/mobility/1401699999/08f40bd0e1724ad38e0d1fcda28879e5.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1401699999",
+                "type": "s",
+                "state_id": "9044089d-ab1b-41b9-82cb-c1f8a6d511f2",
+                "regDate": 2021,
+                "mileage": 7800,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "emma",
+                    "type": "Privat"
+                },
+                "fuel": "Bensin"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002398157",
+                "list_time": "2025-03-01T13:25:42+01:00",
+                "subject": "Volvo V60 Recharge T6 AWD Backkamera VoC Moms 340hk",
+                "price": {
+                    "value": 289800,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002398157/1354152902.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002398157",
+                "type": "s",
+                "state_id": "7cdce427-1e8d-4993-ab08-56dfc99d2b03",
+                "regDate": 2021,
+                "mileage": 10500,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Kamux Upplands Väsby",
+                    "type": "Företag"
+                },
+                "fuel": "Miljöbränsle/Hybrid"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002319737",
+                "list_time": "2025-02-28T21:46:01+01:00",
+                "subject": "Volvo V60 D4 190hk Momentum Sensorer Navi Skinn Drag",
+                "price": {
+                    "value": 274800,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002319737/1876569760.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002319737",
+                "type": "s",
+                "state_id": "53059e28-2288-4aff-9ac2-942987664856",
+                "regDate": 2020,
+                "mileage": 9266,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Riddermark bil Örebro",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002318155",
+                "list_time": "2025-02-28T19:32:42+01:00",
+                "subject": "Volvo V60 Recharge T6 AWD Inscription expr Backkamera Navi 3",
+                "price": {
+                    "value": 299800,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002318155/3288789898.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002318155",
+                "type": "s",
+                "state_id": "aa548bde-7414-47dc-a608-8f6e3da0d7a0",
+                "regDate": 2022,
+                "mileage": 10512,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Kamux Varberg",
+                    "type": "Företag"
+                },
+                "fuel": "Miljöbränsle/Hybrid"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002299514",
+                "list_time": "2025-02-28T19:17:22+01:00",
+                "subject": "Volvo V60 B4 Diesel Core PRIVATLEASING 24MÅN*",
+                "price": {
+                    "value": 4490,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002299514/3414734900.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002299514",
+                "type": "s",
+                "state_id": "88889db0-dd50-4ffd-a3f5-f7715d2b444f",
+                "regDate": 2023,
+                "mileage": 4047,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Volvo Car Kungsängen",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002397125",
+                "list_time": "2025-02-28T19:15:49+01:00",
+                "subject": "Volvo V60 T6 TwEn AWD PHEV, Läder, Teknikpkt PRO, Harman K,",
+                "price": {
+                    "value": 299900,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002397125/3053348358.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002397125",
+                "type": "s",
+                "state_id": "21408ffd-aa26-4e7d-8ffe-772b961fcc59",
+                "regDate": 2020,
+                "mileage": 10138,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Niber Sthlm AB",
+                    "type": "Företag"
+                },
+                "fuel": "Bensin"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002394632",
+                "list_time": "2025-02-28T16:37:21+01:00",
+                "subject": "Volvo V60 T6 AWD Adv. Edition /Läder/Backkamera/Drag/BLIS",
+                "price": {
+                    "value": 299900,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002394632/1033326741.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002394632",
+                "type": "s",
+                "state_id": "260292e5-d8a7-4997-af8a-b2ea547237b2",
+                "regDate": 2020,
+                "mileage": 9111,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Fikratsson Bil AB MRF - handlare",
+                    "type": "Företag"
+                },
+                "fuel": "Miljöbränsle/Hybrid"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002395418",
+                "list_time": "2025-02-28T16:37:18+01:00",
+                "subject": "Volvo V60 B4 Diesel Mom Adv Navi Pro Edition",
+                "price": {
+                    "value": 289900,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002395418/3106789080.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002395418",
+                "type": "s",
+                "state_id": "b8ae5d48-58b0-4d20-b664-cf04c32ef521",
+                "regDate": 2022,
+                "mileage": 10697,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Bilmånsson Eslöv Renault/ Begcenter",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002323289",
+                "list_time": "2025-02-28T16:07:52+01:00",
+                "subject": "Volvo V60 B4 Bensin Momentum Adv.Edt GPS Kamera VoC",
+                "price": {
+                    "value": 289800,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002323289/1884836641.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002323289",
+                "type": "s",
+                "state_id": "fcb9290c-c1f5-467d-8e7a-b3edcf93fd72",
+                "regDate": 2021,
+                "mileage": 8742,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Bilbolaget Timrå",
+                    "type": "Företag"
+                },
+                "fuel": "Bensin"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002395036",
+                "list_time": "2025-02-28T16:03:32+01:00",
+                "subject": "Volvo V60 T8 AWD 392hk Momentum / Navi / Drag / Värmare",
+                "price": {
+                    "value": 299900,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002395036/2889997021.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002395036",
+                "type": "s",
+                "state_id": "c85dec0b-5e52-47a7-af11-54c9bd899b7b",
+                "regDate": 2020,
+                "mileage": 9100,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Sigtuna bil",
+                    "type": "Företag"
+                },
+                "fuel": "Miljöbränsle/Hybrid"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002361563",
+                "list_time": "2025-02-28T15:59:52+01:00",
+                "subject": "Volvo V60 B4 Diesel 197hk Momentum Aut H/K Kamera Leasbar",
+                "price": {
+                    "value": 258900,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002361563/3923069489.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002361563",
+                "type": "s",
+                "state_id": "376e0453-63f0-4f5f-b810-b2696f8a77be",
+                "regDate": 2021,
+                "mileage": 9631,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "RA Motor Uppsala",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002360858",
+                "list_time": "2025-02-28T14:54:55+01:00",
+                "subject": "Volvo V60 T6 AWD 340 Geartronic Momentum \"MOMS\"",
+                "price": {
+                    "value": 288500,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002360858/1977788800.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002360858",
+                "type": "s",
+                "state_id": "aa0df12d-eb0f-42be-a03c-a948b614b294",
+                "regDate": 2020,
+                "mileage": 9200,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Mellinger Bil AB",
+                    "type": "Företag"
+                },
+                "fuel": "El"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002394007",
+                "list_time": "2025-02-28T13:57:32+01:00",
+                "subject": "Volvo V60 D4 Geartronic Advanced Edition, Momentum Euro 6",
+                "price": {
+                    "value": 289000,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002394007/0630054594.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002394007",
+                "type": "s",
+                "state_id": "e9931940-c40a-4c8b-8da4-00789589f3a2",
+                "regDate": 2020,
+                "mileage": 5280,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "SA Bil i Lidköping AB",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002305474",
+                "list_time": "2025-02-28T11:47:46+01:00",
+                "subject": "Volvo V60 T6 AWD 340HK, Adv Edition, Momentum, 4,99% Ränta",
+                "price": {
+                    "value": 284900,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002305474/0534791099.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002305474",
+                "type": "s",
+                "state_id": "d45ad1ef-9b2e-4a2f-82de-96cff71c8714",
+                "regDate": 2020,
+                "mileage": 10377,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Koche Bil AB - MRF Handlare",
+                    "type": "Företag"
+                },
+                "fuel": "Miljöbränsle/Hybrid"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002323877",
+                "list_time": "2025-02-28T11:05:49+01:00",
+                "subject": "Volvo V60 B4 Momentum VOC Värmare Kamera Navi CarPlay",
+                "price": {
+                    "value": 294800,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002323877/1581607713.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002323877",
+                "type": "s",
+                "state_id": "4e796351-6a88-4986-a128-70ef05009c42",
+                "regDate": 2022,
+                "mileage": 8088,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Riddermark Bil – Megastore",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002296649",
+                "list_time": "2025-02-28T10:29:04+01:00",
+                "subject": "Volvo V60 Recharge T6 AWD 340HK VÄRMARE BACKKAMERA MOMS",
+                "price": {
+                    "value": 293900,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002296649/1857245264.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002296649",
+                "type": "s",
+                "state_id": "399d0724-fa79-4452-91cb-2379bbab16f6",
+                "regDate": 2021,
+                "mileage": 10121,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "BD Bil",
+                    "type": "Företag"
+                },
+                "fuel": "Miljöbränsle/Hybrid"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1001928524",
+                "list_time": "2025-02-28T07:29:38+01:00",
+                "subject": "Volvo V60 B4 Bensin Momentum Advanced Edition//Dragkrok//",
+                "price": {
+                    "value": 289000,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1001928524/3698335476.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1001928524",
+                "type": "s",
+                "state_id": "34842510-7bb3-453f-874a-2a2c64c7680b",
+                "regDate": 2021,
+                "mileage": 8820,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Liljas Personbilar AB",
+                    "type": "Företag"
+                },
+                "fuel": "Bensin"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002391969",
+                "list_time": "2025-02-27T20:02:21+01:00",
+                "subject": "Volvo V60 Recharge T6 Ins Expr 340hk VOC NaviPro BLIS B-kam",
+                "price": {
+                    "value": 289900,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002391969/1978171762.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002391969",
+                "type": "s",
+                "state_id": "519db47f-0396-4782-b280-d256741b3b62",
+                "regDate": 2021,
+                "mileage": 10839,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Bilia Outlet Trollhättan",
+                    "type": "Företag"
+                },
+                "fuel": "Miljöbränsle/Hybrid"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002379233",
+                "list_time": "2025-02-27T20:01:40+01:00",
+                "subject": "Volvo V60 B4 197HK MOMENTUM DRAG B-KAM NAVI HIGH PERF.",
+                "price": {
+                    "value": 274700,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002379233/2202011013.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002379233",
+                "type": "s",
+                "state_id": "d6648b7c-2d57-4b1d-88f0-3bc3d98101be",
+                "regDate": 2021,
+                "mileage": 7882,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "DAAL Bil AB",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002391491",
+                "list_time": "2025-02-27T17:32:56+01:00",
+                "subject": "Volvo V60 D4 Momentum Advanced Edition Aut Voc PDC",
+                "price": {
+                    "value": 7590,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002391491/1098508975.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002391491",
+                "type": "s",
+                "state_id": "272ef7a1-bd10-41c4-bde0-80bc1d35d5c7",
+                "regDate": 2020,
+                "mileage": 10730,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Ayvens Täby Release",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002391072",
+                "list_time": "2025-02-27T16:42:15+01:00",
+                "subject": "Volvo V60 T6 Awd Momentum Advanced Edition Voc Drag",
+                "price": {
+                    "value": 269000,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002391072/2708024711.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002391072",
+                "type": "s",
+                "state_id": "0cbd47df-0902-44b4-b1db-a5ddb55c0ed3",
+                "regDate": 2020,
+                "mileage": 10029,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Ayvens Väsby",
+                    "type": "Företag"
+                },
+                "fuel": "Miljöbränsle/Hybrid"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002389684",
+                "list_time": "2025-02-27T13:49:13+01:00",
+                "subject": "Volvo V60 D4 Momentum Advanced Edition Aut Voc PDC",
+                "price": {
+                    "value": 249000,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002389684/2729145798.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002389684",
+                "type": "s",
+                "state_id": "7dc31b0b-0134-49fc-b997-74c544b2244d",
+                "regDate": 2020,
+                "mileage": 10706,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Ayvens Täby",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002389273",
+                "list_time": "2025-02-27T12:37:12+01:00",
+                "subject": "Volvo V60 B4 Diesel Momentum Advanced SE",
+                "price": {
+                    "value": 299900,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002389273/1722186278.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002389273",
+                "type": "s",
+                "state_id": "76cf2d5d-d3e0-4091-a9ce-b7b0d7231d53",
+                "regDate": 2021,
+                "mileage": 6884,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Brandt Bil – Lidköping – Mellbygatan",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002205769",
+                "list_time": "2025-02-27T12:13:37+01:00",
+                "subject": "Volvo V60 T6 340hk AWD *KAMPANJ!* VOC P-Värmare Drag",
+                "price": {
+                    "value": 298800,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002205769/4251808051.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002205769",
+                "type": "s",
+                "state_id": "7f77f3bc-bdbf-4f10-b656-190bc07a2558",
+                "regDate": 2020,
+                "mileage": 8484,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Riddermark Bil Östersund",
+                    "type": "Företag"
+                },
+                "fuel": "Miljöbränsle/Hybrid"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002353744",
+                "list_time": "2025-02-27T10:08:50+01:00",
+                "subject": "Volvo V60 B4 Advanced VOC Värm Kamera Skinn Navi CarPlay",
+                "price": {
+                    "value": 289800,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002353744/1749317491.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002353744",
+                "type": "s",
+                "state_id": "1b1e7e46-a9fb-461f-833d-a7aabac9819c",
+                "regDate": 2021,
+                "mileage": 8399,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Riddermark Bil - Linköping",
+                    "type": "Företag"
+                },
+                "fuel": "Bensin"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002387799",
+                "list_time": "2025-02-27T07:31:13+01:00",
+                "subject": "Volvo V60 T6 TE Momentum Edition",
+                "price": {
+                    "value": 279500,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002387799/2233407384.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002387799",
+                "type": "s",
+                "state_id": "ade252be-27db-4bd4-b2c0-c7e2d7c97556",
+                "regDate": 2020,
+                "mileage": 10050,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Rolf Ericson Bil i Borlänge",
+                    "type": "Företag"
+                },
+                "fuel": "Miljöbränsle/Hybrid"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002329851",
+                "list_time": "2025-02-26T19:11:55+01:00",
+                "subject": "Volvo V60 Recharge T6 AWD 340hk Momentum Adv Kamera Drag",
+                "price": {
+                    "value": 298900,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002329851/3321479046.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002329851",
+                "type": "s",
+                "state_id": "1f997a3b-8152-45e0-88f5-2d417d1d3dba",
+                "regDate": 2021,
+                "mileage": 9915,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Riddermark Recharge Stockholm",
+                    "type": "Företag"
+                },
+                "fuel": "Miljöbränsle/Hybrid"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1000519229",
+                "list_time": "2025-02-26T19:01:53+01:00",
+                "subject": "Volvo V60 D4 190HK Momentum Navi Aut",
+                "price": {
+                    "value": 299000,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1000519229/1207538557.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1000519229",
+                "type": "s",
+                "state_id": "653d05c8-9086-410d-9024-18085ebae178",
+                "regDate": 2020,
+                "mileage": 7000,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Carlqvist Bil AB",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002338401",
+                "list_time": "2025-02-26T18:08:22+01:00",
+                "subject": "Volvo V60 B4 197hk Momentum VOC D-Värm B-Kamera Navi",
+                "price": {
+                    "value": 289800,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002338401/1690037661.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002338401",
+                "type": "s",
+                "state_id": "770b767f-8fdb-4e23-9847-3d0f2b39b380",
+                "regDate": 2021,
+                "mileage": 6471,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Riddermark Bil Uppsala",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002237788",
+                "list_time": "2025-02-26T17:21:37+01:00",
+                "subject": "Volvo V60 D4 AWD Momentum SE II | Dragkrok | Teknikpaket",
+                "price": {
+                    "value": 294900,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002237788/1509998190.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002237788",
+                "type": "s",
+                "state_id": "4ad6a433-dd6d-4fa2-be9c-6f383e4986d2",
+                "regDate": 2020,
+                "mileage": 7500,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Bilia Strängnäs Volvo",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002386167",
+                "list_time": "2025-02-26T17:04:39+01:00",
+                "subject": "Volvo V60 T4 Advanced Edition, Momentum BKAMERA SKINN NAVI",
+                "price": {
+                    "value": 274900,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002386167/1000711675.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002386167",
+                "type": "s",
+                "state_id": "33bec50c-6387-486a-a6c7-c62b442b00c2",
+                "regDate": 2020,
+                "mileage": 7648,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Erlandsson Bil AB",
+                    "type": "Företag"
+                },
+                "fuel": "Bensin"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002217003",
+                "list_time": "2025-02-26T16:59:19+01:00",
+                "subject": "Volvo V60 B4 Diesel Momentum Advanced SE",
+                "price": {
+                    "value": 269900,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002217003/4261544606.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002217003",
+                "type": "s",
+                "state_id": "b3c4fb60-ded9-4950-93f6-d8995865cced",
+                "regDate": 2021,
+                "mileage": 10721,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Bilia Eskilstuna Volvo",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002385997",
+                "list_time": "2025-02-26T16:47:51+01:00",
+                "subject": "Volvo V60 Volvo V60 T6 Recharge AWD, Inscription Exp, Ljus,",
+                "price": {
+                    "value": 6095,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002385997/4106616640.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002385997",
+                "type": "s",
+                "state_id": "3c325b54-2918-4308-a636-e744eb06deab",
+                "regDate": 2021,
+                "mileage": 8598,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Ayvens Väsby Release",
+                    "type": "Företag"
+                },
+                "fuel": "Miljöbränsle/Hybrid"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002385803",
+                "list_time": "2025-02-26T16:20:46+01:00",
+                "subject": "Volvo V60 T8 TE Momentum Advanced Edition",
+                "price": {
+                    "value": 299800,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002385803/2089456641.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002385803",
+                "type": "s",
+                "state_id": "966bffb7-d0ac-4f7f-98d0-73caefffce9d",
+                "regDate": 2020,
+                "mileage": 10534,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Tage Rejmes i Linköping Bil AB",
+                    "type": "Företag"
+                },
+                "fuel": "Miljöbränsle/Hybrid"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002385159",
+                "list_time": "2025-02-26T14:45:46+01:00",
+                "subject": "Volvo V60 T6 Awd Inscription Expression Voc Drag",
+                "price": {
+                    "value": 6895,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002385159/4044790409.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002385159",
+                "type": "s",
+                "state_id": "933a9d5f-2b91-4799-a934-8b19b704a378",
+                "regDate": 2022,
+                "mileage": 6004,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Ayvens Väsby Release",
+                    "type": "Företag"
+                },
+                "fuel": "Miljöbränsle/Hybrid"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002384288",
+                "list_time": "2025-02-26T11:57:19+01:00",
+                "subject": "Volvo V60 *RÄNTA 4,99%* B4 V-Däck ingår Kamera-Värmare-VoC-C",
+                "price": {
+                    "value": 269900,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002384288/0703279900.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002384288",
+                "type": "s",
+                "state_id": "23a3353b-dc09-45bf-a549-2e80a0cb51ee",
+                "regDate": 2021,
+                "mileage": 9036,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "KFL Bilcenter Linköping",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002383846",
+                "list_time": "2025-02-26T10:43:35+01:00",
+                "subject": "Volvo V60",
+                "price": {
+                    "value": 289000,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002383846/1396137404.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002383846",
+                "type": "s",
+                "state_id": "3fd225d1-4482-4db4-804b-c3d2db7ecf73",
+                "regDate": 2020,
+                "mileage": 10450,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Toveks Bil",
+                    "type": "Företag"
+                },
+                "fuel": "Bensin"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002261386",
+                "list_time": "2025-02-25T19:30:47+01:00",
+                "subject": "Volvo V60 B4 Diesel  Advanced SE/BLIS/Navi/VOC/Värmare",
+                "price": {
+                    "value": 274800,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002261386/2719135583.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002261386",
+                "type": "s",
+                "state_id": "0f8a1124-208b-4950-ae68-3dc6fd08c580",
+                "regDate": 2021,
+                "mileage": 10280,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Tage Rejmes i Linköping Bil AB, Tornby",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002382681",
+                "list_time": "2025-02-25T18:34:38+01:00",
+                "subject": "Volvo V60 B4 Diesel Mom Adv SE Drag/ Kamera/ BLIS/ Värmare/",
+                "price": {
+                    "value": 299000,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002382681/0531834380.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002382681",
+                "type": "s",
+                "state_id": "81be70ed-b031-4e8f-8b6d-a134dcd3ed79",
+                "regDate": 2021,
+                "mileage": 6525,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Göinge bil Osby",
+                    "type": "Företag"
+                },
+                "fuel": "Diesel"
+            },
+            "is_new": false,
+            "seller": {}
+        },
+        {
+            "ad": {
+                "ad_id": "1002258767",
+                "list_time": "2025-02-25T16:55:34+01:00",
+                "subject": "Volvo V60 Recharge T6 AWD /Drag/B-kamera/VOC",
+                "price": {
+                    "value": 299000,
+                    "suffix": "kr"
+                },
+                "images": [
+                    {
+                        "url": "https://i.blocketcdn.se/pictures/asl/1002258767/1054065995.webp"
+                    }
+                ],
+                "category": [
+                    {
+                        "id": "1020",
+                        "name": "Bilar"
+                    }
+                ],
+                "ad_status": "active",
+                "share_url": "https://www.blocket.se/annons/1002258767",
+                "type": "s",
+                "state_id": "1752be68-0900-48f3-b269-43a937eaa056",
+                "regDate": 2021,
+                "mileage": 10765,
+                "gearbox": "Automat",
+                "seller": {
+                    "name": "Fikratsson Bil AB MRF - handlare",
+                    "type": "Företag"
+                },
+                "fuel": "Miljöbränsle/Hybrid"
+            },
+            "is_new": false,
+            "seller": {}
+        }
+    ],
+    "pages": 4,
+    "pitId": "",
+    "sortOrder": "Senaste",
+    "scrollId": "1740498934000,0",
+    "searchAfter": [
+        1740498934000,
+        0
+    ]
+}
