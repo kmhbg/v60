@@ -27,10 +27,19 @@ from blocket_api import BlocketAPI
 import json
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 import threading
+from dotenv import load_dotenv
+
+# Ladda miljövariabler från .env
+load_dotenv()
 
 def update_listings():
     print("Hämtar annonser från Blocket API...")
-    api = BlocketAPI()
+    token = os.getenv('BLOCKET_TOKEN')
+    if not token:
+        print("ERROR: BLOCKET_TOKEN saknas i .env-filen")
+        return
+        
+    api = BlocketAPI(token)
     data = api.get_listings()
     
     print("Sparar data till JSON-fil...")
@@ -46,6 +55,11 @@ def run_server():
     server.serve_forever()
 
 def main():
+    # Kontrollera att .env finns
+    if not os.path.exists('.env'):
+        print("ERROR: .env-fil saknas")
+        return
+        
     # Starta webbservern i en separat tråd
     server_thread = threading.Thread(target=run_server, daemon=True)
     server_thread.start()
@@ -65,6 +79,16 @@ EOL
 # Säkerhetskopiera original main.py och installera den nya versionen
 cp /root/app/main.py /root/app/main.py.backup
 mv /root/app/main.py.tmp /root/app/main.py
+
+# Kontrollera att .env finns och har rätt innehåll
+if [ ! -f "/root/app/.env" ]; then
+    echo "ERROR: .env-fil saknas i /root/app/"
+    if [ -f "/root/app/.env.example" ]; then
+        echo "Kopierar .env.example till .env"
+        cp /root/app/.env.example /root/app/.env
+        echo "OBS: Du behöver uppdatera BLOCKET_TOKEN i .env-filen!"
+    fi
+fi
 
 echo "=== Förbereder loggfiler ==="
 touch /var/log/blocket-app.log /var/log/blocket-app.error.log
