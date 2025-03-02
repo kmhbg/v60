@@ -1,7 +1,7 @@
 # Environment variables
 .env
 .env.backup
-
+.komihag
 # Python
 __pycache__/
 *.py[cod]

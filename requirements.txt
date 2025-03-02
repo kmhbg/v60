@@ -1,3 +1,3 @@
-python-dotenv==1.0.0
-requests==2.31.0
-blocket-api==1.0.0 
+python-dotenv
+requests
+blocket-api
