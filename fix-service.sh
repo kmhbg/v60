@@ -10,6 +10,7 @@ Type=simple
 User=root
 WorkingDirectory=/root/app
 Environment=PYTHONPATH=/root/app
+Environment=RUN_AS_SERVICE=1
 ExecStart=/root/app/venv/bin/python /root/app/main.py
 Restart=always
 StandardOutput=append:/var/log/blocket-app.log
@@ -17,6 +18,53 @@ StandardError=append:/var/log/blocket-app.error.log
 [Install]
 WantedBy=multi-user.target
 EOL
+
+# Uppdatera main.py för att hantera service-läge
+cat > /root/app/main.py.tmp << 'EOL'
+import os
+import time
+from blocket_api import BlocketAPI
+import json
+from http.server import SimpleHTTPRequestHandler, HTTPServer
+import threading
+
+def update_listings():
+    print("Hämtar annonser från Blocket API...")
+    api = BlocketAPI()
+    data = api.get_listings()
+    
+    print("Sparar data till JSON-fil...")
+    with open('data/listings.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    
+    print("Klar!")
+    print("Data uppdaterad!")
+
+def run_server():
+    server = HTTPServer(('0.0.0.0', 8080), SimpleHTTPRequestHandler)
+    print("Server started at http://0.0.0.0:8080")
+    server.serve_forever()
+
+def main():
+    # Starta webbservern i en separat tråd
+    server_thread = threading.Thread(target=run_server, daemon=True)
+    server_thread.start()
+
+    while True:
+        update_listings()
+        # Om vi kör som service, uppdatera var 5:e minut
+        if os.environ.get('RUN_AS_SERVICE'):
+            time.sleep(300)  # 5 minuter
+        else:
+            input("Tryck Enter för att uppdatera listings (eller Ctrl+C för att avsluta)...")
+
+if __name__ == "__main__":
+    main()
+EOL
+
+# Säkerhetskopiera original main.py och installera den nya versionen
+cp /root/app/main.py /root/app/main.py.backup
+mv /root/app/main.py.tmp /root/app/main.py
 
 echo "=== Förbereder loggfiler ==="
 touch /var/log/blocket-app.log /var/log/blocket-app.error.log
@@ -62,7 +110,11 @@ echo -e "\nError output:"
 tail -n 5 /var/log/blocket-app.error.log
 
 echo -e "\n=== Nätverksanslutningar ==="
-netstat -tulpn | grep python
+if command -v netstat > /dev/null; then
+    netstat -tulpn | grep python
+else
+    ss -tulpn | grep python
+fi
 
 echo -e "\n=== Fullständig service-status ==="
 systemctl status blocket-app --no-pager
