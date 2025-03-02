@@ -12,11 +12,29 @@ WorkingDirectory=/root/app
 Environment=PYTHONPATH=/root/app
 ExecStart=/root/app/venv/bin/python /root/app/main.py
 Restart=always
+StandardOutput=append:/var/log/blocket-app.log
+StandardError=append:/var/log/blocket-app.error.log
 [Install]
 WantedBy=multi-user.target
 EOL
 
-echo "=== Startar om systemd och applikationen ==="
+echo "=== Förbereder loggfiler ==="
+touch /var/log/blocket-app.log /var/log/blocket-app.error.log
+chmod 644 /var/log/blocket-app.log /var/log/blocket-app.error.log
+
+echo "=== Kontrollerar Python-miljön ==="
+echo "Python version:"
+/root/app/venv/bin/python --version
+echo -e "\nPython sökväg:"
+/root/app/venv/bin/python -c "import sys; print('\n'.join(sys.path))"
+echo -e "\nInstallerade paket:"
+/root/app/venv/bin/pip list
+
+echo -e "\n=== Testar Python-skriptet manuellt ==="
+cd /root/app
+/root/app/venv/bin/python -c "import blocket_api; print('✓ Kan importera blocket_api')" || echo "✗ Kan INTE importera blocket_api"
+
+echo -e "\n=== Startar om systemd och applikationen ==="
 systemctl daemon-reload
 systemctl restart blocket-app
 sleep 2  # Vänta lite så att servicen hinner starta
@@ -26,6 +44,8 @@ if systemctl is-active --quiet blocket-app; then
     echo "✓ Service är aktiv"
 else
     echo "✗ Service är INTE aktiv"
+    echo -e "\n=== Felmeddelanden ==="
+    tail -n 20 /var/log/blocket-app.error.log
 fi
 
 echo -e "\n=== Kontrollerar Python-process ==="
@@ -36,10 +56,16 @@ else
 fi
 
 echo -e "\n=== Senaste loggraderna ==="
-journalctl -u blocket-app -n 5 --no-pager
+echo "Standard output:"
+tail -n 5 /var/log/blocket-app.log
+echo -e "\nError output:"
+tail -n 5 /var/log/blocket-app.error.log
 
 echo -e "\n=== Nätverksanslutningar ==="
 netstat -tulpn | grep python
 
 echo -e "\n=== Fullständig service-status ==="
-systemctl status blocket-app
+systemctl status blocket-app --no-pager
+
+echo -e "\n=== Filer i app-katalogen ==="
+ls -la /root/app/
